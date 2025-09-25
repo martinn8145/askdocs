@@ -2,23 +2,23 @@
 
 AskDocs is a powerful Streamlit application that enables intelligent document analysis and question-answering using Retrieval-Augmented Generation (RAG). Upload your documents and ask natural language questions to get precise, context-aware answers backed by your document content.
 
-## =€ Features
+## Features
 
-### =Ú Document Management
+### Document Management
 - **Multi-format support**: Upload PDF and TXT files
 - **Robust encoding handling**: Automatically detects and handles various text encodings (UTF-8, Windows-1252, Latin-1, etc.)
 - **Support for special characters**: Handles emojis, accented characters, and international text
 - **Batch processing**: Upload up to 3 documents simultaneously
 - **Smart chunking**: Automatically splits documents into optimal chunks for processing
 
-### > AI-Powered Q&A
+### AI-Powered Q&A
 - **Local AI models**: Uses sentence-transformers for embeddings (no external API needed)
 - **Semantic search**: Finds relevant document sections using vector similarity
 - **Context-aware answers**: Provides answers based on actual document content
 - **Conversation history**: Maintains chat history for better context understanding
 - **Source attribution**: Shows which document sections were used for each answer
 
-### =Ê Advanced Analytics & Visualization
+### Advanced Analytics & Visualization
 - **Document Statistics**: View detailed stats about your uploaded documents
 - **Embedding Visualization**: Interactive 2D visualization of document embeddings using:
   - **t-SNE**: Better for exploring local structure and clusters
@@ -32,7 +32,7 @@ AskDocs is a powerful Streamlit application that enables intelligent document an
 - **Memory Efficient**: Optimized for local processing without cloud dependencies
 - **Real-time Processing**: Live updates as documents are processed
 
-## =à Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -74,7 +74,7 @@ streamlit run src/app.py
 
 The application will open in your browser at `http://localhost:8501`
 
-## =Ö How to Use
+## How to Use
 
 ### Step 1: Upload Documents
 1. Navigate to the **Document Management** section in the sidebar
@@ -97,7 +97,7 @@ The application will open in your browser at `http://localhost:8501`
 1. Check the **Document Stats** section for file information
 2. View the **Performance** section for response times and system metrics
 
-## =¡ Use Cases
+## Use Cases
 
 - **Research**: Analyze academic papers, research documents, and literature
 - **Legal**: Review contracts, legal documents, and case files
@@ -105,7 +105,7 @@ The application will open in your browser at `http://localhost:8501`
 - **Education**: Study materials, textbooks, and course content
 - **Personal**: Organize and search through personal document collections
 
-## =' Configuration
+## Configuration
 
 ### Chunk Settings
 - **Chunk Size**: Controls how documents are split (default: 500 tokens)
@@ -119,7 +119,7 @@ The application will open in your browser at `http://localhost:8501`
 - **t-SNE**: Adjust perplexity (5-50) and learning rate (10-1000)
 - **UMAP**: Configure n_neighbors (2-100) and min_dist (0.0-0.99)
 
-## =¨ Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -137,7 +137,7 @@ The application will open in your browser at `http://localhost:8501`
 - Close other resource-intensive applications
 - Consider using a machine with more CPU cores
 
-## =æ Dependencies
+## Dependencies
 
 Key libraries used:
 - **Streamlit**: Web interface framework
@@ -147,23 +147,3 @@ Key libraries used:
 - **umap-learn**: UMAP dimensionality reduction
 - **PyPDF2**: PDF document processing
 - **plotly**: Interactive visualizations
-
-## > Contributing
-
-Contributions are welcome! Please feel free to submit issues and enhancement requests.
-
-## =Ä License
-
-This project is open source. Please check the license file for details.
-
-## <˜ Support
-
-If you encounter any issues:
-1. Check the troubleshooting section above
-2. Ensure all dependencies are correctly installed
-3. Verify your Python version meets requirements
-4. Open an issue on the project repository
-
----
-
-**Built with d using Streamlit and modern AI technologies**
