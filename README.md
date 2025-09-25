@@ -26,7 +26,7 @@ AskDocs is a powerful Streamlit application that enables intelligent document an
 - **Performance Monitoring**: Track query response times and system performance
 - **Chunk Analysis**: See how documents are split and processed
 
-### =' Technical Features
+### Technical Features
 - **FAISS Integration**: Efficient vector storage and similarity search
 - **Configurable Parameters**: Adjust chunk sizes, overlap, and embedding parameters
 - **Memory Efficient**: Optimized for local processing without cloud dependencies
